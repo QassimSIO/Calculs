@@ -74,7 +74,7 @@ namespace Calculs
                             }
                             catch
                             {
-                                Console.WriteLine("Saisissez l' entier");
+                                Console.WriteLine("Saisis entier stp ");
                             }
                         }
                         // comparaison avec la réponse
