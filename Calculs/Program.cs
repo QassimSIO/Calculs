@@ -74,7 +74,7 @@ namespace Calculs
                             }
                             catch
                             {
-                                Console.WriteLine("Saisissez un entier");
+                                Console.WriteLine("Saisissez l' entier");
                             }
                         }
                         // comparaison avec la réponse
