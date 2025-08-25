@@ -11,7 +11,7 @@ namespace Calculs
         {
             // variables 
             Random rand = new Random(); // outil de génération de nombre aléatoire
-            int val1, val2; // mémorisation de nombres aléatoires
+            int val1 = rand.Next(1, 10), val2 = rand.Next(1, 10); // mémorisation de nombres aléatoires
             int solution; // calcul de la solution
             int reponse = 0; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
@@ -31,8 +31,8 @@ namespace Calculs
                 switch (choix)
                 {
                     case "1": // addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        
+                       
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
@@ -60,8 +60,7 @@ namespace Calculs
                         }
                         break;
                     case "2": // multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
